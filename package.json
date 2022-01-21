@@ -1,0 +1,20 @@
+{
+  "name": "limpar_dm",
+  "version": "1.0.0",
+  "description": "cleardm script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "script",
+    "teox",
+    "clear",
+    "dm"
+  ],
+  "author": "Teox",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js-selfbot": "^12.0.2"
+  }
+}
