@@ -6,7 +6,7 @@ Não sou responsável pelo uso desta ferramenta em sua conta, pois o selfbot é 
 
 Abra o workspace ClearDM no visual studio code.
 
-Depois abra o terminal e coloque [npm i]
+Depois abra o terminal e coloque [ npm i ]
 
 Depois configure seu arquivo config.json que esta em src/json/config.json;
 
@@ -22,7 +22,7 @@ I am not responsible for using this tool on your account as selfbot is against d
 
 Open the ClearDM workspace in visual studio code.
 
-Open the terminal and put [npm i]
+Open the terminal and put [ npm i ]
 
 Start by configuring your config.json file in src/json/config.json;
 
