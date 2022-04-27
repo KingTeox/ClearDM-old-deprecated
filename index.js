@@ -35,12 +35,10 @@ Client.on("ready", async () => {
             } else {
                 Delete(); 
             }
-        }, 2000);
+        }, 1200);
         
 
     }; Clear(config.IdClear);
 });
 
-Client.login(config.Token).catch(err => {
-    console.log(`Token Error`)
-});
+Client.login(config.Token).catch(err => { console.log(`Token Error`); });
