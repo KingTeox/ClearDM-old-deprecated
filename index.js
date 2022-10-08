@@ -26,7 +26,9 @@ Client.on("ready", async () => {
             deleteMSG.delete().then(Deleted => {
                 Filtro.delete(Filtro.id);
                 console.log(`[Teox] <ClearFunction> Message [${Deleted.content}] Deleted :)`);
-            }).catch(Err => { return; });
+            }).catch(err => { 
+                return console.log(`[Teox] <ClearFunction> Message ${err}`); 
+            });
         }; 
         setInterval(() => { 
             if (Filtro.size === 0) {
