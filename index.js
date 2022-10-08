@@ -4,7 +4,7 @@ const config = require("./src/json/config.json")
 
 Client.on("ready", async () => {
     
-    console.log(`[Teox] <Client> Ready in ${Client.user.tag}`);
+    console.log(`[Teox] <Self> Carregado a conta ${Client.user.tag}`);
 
     /**
      * 
