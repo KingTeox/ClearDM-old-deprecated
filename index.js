@@ -29,13 +29,12 @@ Client.on("ready", async () => {
                 return console.log(`[Teox] <ClearFunction> Message ${err}`); 
             });
         }; 
+        
         setInterval(() => { 
             if (Filtro.size === 0) {
-                console.log(`[Teox] <ClearFunction> Messages deleted Exiting..`);
-                process.exit(1);
-            } else {
-                Delete(); 
-            }
+                console.log(`[Teox] <ClearFunction> Messages apagadas fechando..`);
+                return process.exit(1);
+            };  return Delete();
         }, 1200);
         
 
