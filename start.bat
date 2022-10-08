@@ -1,5 +1,5 @@
 @echo off
-title Teox_Exclusive
+title Teox_ClearDM
 color 9
 echo =======================================================================================================================
 node index.js
