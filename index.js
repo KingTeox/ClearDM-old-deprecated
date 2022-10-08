@@ -14,8 +14,8 @@ Client.on("ready", async () => {
         console.log(`[Teox] <ClearFunction> Started and Working.`);
 
         let ClearMembro = Client.users.fetch(idDM);
-        let DM = await ClearMembro.send("[CLEAR]");
-        let Messages = await DM.channel.messages.fetch();
+        let DM = await ClearMembro.createDM();
+        let Messages = await DM.messages.fetch();
         let Filtro = Messages.filter(m => m.author.id === Client.user.id);
         
         console.log(`[Teox] <ClearFunction> Deleting ${Filtro.size} Messages.`);
