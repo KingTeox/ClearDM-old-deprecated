@@ -7,9 +7,8 @@ Client.on("ready", async () => {
     console.log(`[Teox] <Self> Carregado a conta ${Client.user.tag}`);
 
     /**
-     * 
-     * @param {String} idDM 
-     */
+    * @param {String} idDM id de quem voce quer apagar as mensagens no dm
+    */
     async function Clear(idDM) {
         
         console.log(`[Teox] <ClearFunction> Started and Working.`);
